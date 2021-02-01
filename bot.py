@@ -62,7 +62,7 @@ def music(bot, update):
 
 
 def main():
-    u = Updater('YOUR-TOKEN')
+    u = Updater('1615610481:AAHPlLTfaFHYBo2h9Ot4IoxDG-W8avU6wnQ')
     dp = u.dispatcher
 
     dp.add_handler(CommandHandler("start", start))
